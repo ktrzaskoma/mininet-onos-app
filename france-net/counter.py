@@ -40,4 +40,15 @@ print(discalculator(city['paris'][0], city['paris'][1], city['dijon'][0], city['
 print(discalculator(city['dijon'][0], city['dijon'][1], city['lyon'][0], city['lyon'][1]) / 200)
 print(discalculator(city['lyon'][0], city['lyon'][1], city['toulouse'][0], city['toulouse'][1]) / 200)
 print(discalculator(city['lyon'][0], city['lyon'][1], city['marseille'][0], city['marseille'][1]) / 200)
+# added to test test-example controller
+print('test-example things')
+print(discalculator(city['rennes'][0], city['rennes'][1], city['lille'][0], city['lille'][1]) / 200)            #10
+print(discalculator(city['rennes'][0], city['rennes'][1], city['strasbourg'][0], city['strasbourg'][1]) / 200)       #11
+print(discalculator(city['nantes'][0], city['nantes'][1], city['marseille'][0], city['marseille'][1]) / 200)   #12
+print(discalculator(city['bordeaux'][0], city['bordeaux'][1], city['toulouse'][0], city['toulouse'][1]) / 200)           #13
+print(discalculator(city['bordeaux'][0], city['bordeaux'][1], city['lille'][0], city['lille'][1]) / 200)             #14
+print(discalculator(city['paris'][0], city['paris'][1], city['toulouse'][0], city['toulouse'][1]) / 200)       #15
+print(discalculator(city['lille'][0], city['lille'][1], city['marseille'][0], city['marseille'][1]) / 200)       #16
+print(discalculator(city['dijon'][0], city['dijon'][1], city['rennes'][0], city['rennes'][1]) / 200)       #16
+
 
