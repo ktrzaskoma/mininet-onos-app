@@ -1,3 +1,3 @@
 # MININET
 
-*Materials from laboratory about basics of analysing networks.*
+*Materials from laboratories about basics of analysing networks.*
