@@ -50,14 +50,13 @@ class Project(Topo):
         link_8 = self.addLink(s8, s9, bw=200, delay='2.542496989322984ms', loss=0)
         link_9 = self.addLink(s8, s10, bw=200, delay='1.9512774194128457ms', loss=0)
         # onos things
-        link_10 = self.addLink(s5, s2, bw=200, delay='3.1304550037846424ms', loss=0)
-        link_11 = self.addLink(s5, s3, bw=200, delay='4.9347531974223475ms', loss=0)
-        link_12 = self.addLink(s4, s10, bw=200, delay='4.920821170441374ms', loss=0)
-        link_13 = self.addLink(s6, s9, bw=200, delay='1.4989136372196574ms', loss=0)
-        link_14 = self.addLink(s6, s2, bw=200, delay='4.944320788613578ms', loss=0)
-        link_15 = self.addLink(s1, s9, bw=200, delay='4.1577099326709455ms', loss=0)
-        link_16 = self.addLink(s2, s10, bw=200, delay='5.9022015124947655ms', loss=0)
-        link_17 = self.addLink(s7, s5, bw=200, delay='3.594390567888143ms', loss=0)
+        link_10 = self.addLink(s9, s6, bw=200, delay='1.4989136372196574ms', loss=0)
+        link_11 = self.addLink(s9, s10, bw=200, delay='2.260927572628282ms', loss=0)
+        link_12 = self.addLink(s10, s3, bw=200, delay='4.354145322302172ms', loss=0)
+        link_13 = self.addLink(s3, s2, bw=200, delay='2.880726317719385ms', loss=0)
+        link_14 = self.addLink(s2, s5, bw=200, delay='3.1304550037846424ms', loss=0)
+        link_15 = self.addLink(s6, s1, bw=200, delay='3.527074031698339ms', loss=0)
 
 
-topos = {'france-net': (lambda: Project())}
+
+topos = {'france': (lambda: Project())}
