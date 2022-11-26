@@ -2,12 +2,12 @@
     "priority": 40000,
     "timeout": 0,
     "isPermanent": true,
-    "deviceId": "of:0000000000000001",
+    "deviceId": "of:0000000000000009",
     "treatment": {
       "instructions": [
         {
           "type": "OUTPUT",
-          "port": "6"
+          "port": "3"
         }
       ]
     },
@@ -15,16 +15,16 @@
       "criteria": [
         {
           "type": "IN_PORT",
-          "port": "1"
+          "port": "4"
         },
         {
           "type": "ETH_TYPE",
           "ethType": "0x0800"
         },
-
+        
         {
           "type": "IPV4_DST",
-          "ip": "10.0.0.1/32"
+          "ip": "10.0.0.6/32"
         }
       ]
     }

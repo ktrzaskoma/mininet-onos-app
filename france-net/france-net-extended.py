@@ -59,4 +59,4 @@ class Project(Topo):
 
 
 
-topos = {'france': (lambda: Project())}
+topos = {'franceTopo': (lambda: Project())}

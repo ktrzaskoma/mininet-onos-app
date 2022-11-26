@@ -40,8 +40,8 @@ print(discalculator(city['paris'][0], city['paris'][1], city['dijon'][0], city['
 print(discalculator(city['dijon'][0], city['dijon'][1], city['lyon'][0], city['lyon'][1]) / 200)
 print(discalculator(city['lyon'][0], city['lyon'][1], city['toulouse'][0], city['toulouse'][1]) / 200)
 print(discalculator(city['lyon'][0], city['lyon'][1], city['marseille'][0], city['marseille'][1]) / 200)
-# added to test test-example controller
-print('test-example things')
+# added to test test-topology controller
+print('test-topology things')
 print(discalculator(city['toulouse'][0], city['toulouse'][1], city['bordeaux'][0], city['bordeaux'][1]) / 200)       #10
 print(discalculator(city['toulouse'][0], city['toulouse'][1], city['marseille'][0], city['marseille'][1]) / 200)     #11
 print(discalculator(city['marseille'][0], city['marseille'][1], city['strasbourg'][0], city['strasbourg'][1]) / 200) #12

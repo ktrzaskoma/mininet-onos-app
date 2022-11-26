@@ -1,0 +1,7 @@
+Link with value of package
+curl -X POST "http://localhost:8080/add" -d '{"ip1": "10.0.0.1", "ip2": "10.0.0.7"}' -H "Content-Type: application/json" -H "Accept: application/json"
+curl -X POST "http://localhost:8080/add" -d '{"ip1": "10.0.0.8", "ip2": "10.0.0.7"}' -H "Content-Type: application/json" -H "Accept: application/json"
+
+delete
+curl -X DELETE "http://localhost:8080/delete"
+
